@@ -1,4 +1,4 @@
-// Type definitions for react-resizable-box 1.8.1
+// Type definitions for react-resizable-box 1.8
 // Project: https://github.com/bokuweb/react-resizable-box
 // Definitions by: Kalle Ott <https://github.com/kaoDev>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
