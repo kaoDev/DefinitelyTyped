@@ -1,10 +1,10 @@
 // Type definitions for react-resizable-box 1.8.1
 // Project: https://github.com/bokuweb/react-resizable-box
-// Definitions by: Kalle Ott]<https://github.com/kaoDev>
+// Definitions by: Kalle Ott <https://github.com/kaoDev>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
+// TypeScript Version: 2.2
 
 import * as React from 'react';
-import { Component } from 'react'
 
 export interface ResizableState {
   width?: number | string;
@@ -84,7 +84,7 @@ export interface ResizableProps {
   extendsProps?: object,
 }
 
-export default class Resizable extends Component<ResizableProps, ResizableState> {
+export default class Resizable extends React.Component<ResizableProps, ResizableState> {
 
   onResizeStartWithDirection: object;
 
